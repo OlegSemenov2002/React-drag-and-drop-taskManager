@@ -1,0 +1,283 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 		Arial;
+}
+.navList{
+  width: 100%;
+  height: 10%;
+  background-color: ;
+}
+.navList li{
+    display: inline-block;
+    margin:1%;
+    cursor: pointer;
+
+}
+.boards{
+
+ width: 100%;
+ height: 90%;
+}
+.board {
+  border-radius: 5px;
+  margin-top:1em;
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 300px;
+  overflow:auto;
+  height: 100%;
+  background-color: #D9D9D9;
+}
+.boardDel{
+ margin-left: 80%;
+ width: 10%;
+ height: 20px;
+ position: relative;
+ border-radius: 5px;
+ background-color:#BFBFBF;
+ right:-20px;
+ top:5px;
+}
+.card{
+ float:left;
+ margin:15px 0 0 0;
+ min-height: 40px;
+ width: 99%;
+ height:auto;
+ background-color: white ;
+
+}
+.card:hover{
+  background-color: #BFBFBF;
+}
+
+.executeCard{
+ float:left;
+ width: 99%;
+ margin:15px 0 0 0;
+ min-height: 40px;
+ height: auto;
+ background-color: #D8F6D9;
+}
+.executeCard:hover{
+
+ background-color: #DCEBDA;
+}
+
+.cardText{
+float:left;
+vertical-align: center;
+word-wrap:break-word;
+ width:90%;
+ min-height: 40px;
+ height: auto;
+ overflow: auto;
+}
+.executeButton:hover, .deleteButton:hover{
+  background-color: #BFBFBF;
+}
+.delCard{
+ width: 10%;
+ float:right;
+}
+.boardsDisplay{
+    border: 1px solid #232625;
+    margin: 0 3% 0 3%;
+  width: 94%;
+  height: 88%;
+  overflow-x:scroll ;
+}
+ul.boardList{
+  display: inline-block;
+  width: 20000px;
+  display: block;
+
+
+}
+
+ul.boardList > li {
+  vertical-align:top;
+  height: 400px;
+  margin: 0 0 0 1em;
+  display: inline-block;
+  width:20em;
+
+}
+.header > textarea{
+  outline: none;
+  width: 100%;
+  background-color: #F0F1F2;
+  position: relative;
+  min-height: 30px;
+  resize: vertical;
+}
+.header > div{
+    margin-left: 3%;
+    word-wrap:break-word;
+}
+.myBoards{
+  width: 80%;
+  margin: 0 10% 0 10%;
+  border: 1px solid black;
+
+}
+.miniBoard{
+  height: 30%;
+  background-color:black;
+  color:white;
+}
+ul.myBoardsList{
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+
+ul.myBoardsList > li{
+  cursor: pointer;
+  width: 20%;
+  margin: 5% 0 0 5%;
+  height: 10%;
+  display: inline-block;
+  border: 1px solid black;
+}
+.saveButton {
+  cursor: pointer;
+  margin:10px 0 0 10px;
+  width: 30%;
+  height: 25px;
+  background-color:#A6A6A6;
+  border: none;
+
+}
+.executeButton{
+    cursor: pointer;
+    border: none;
+    width: 10%;
+      height: 20px;
+    background-color: #D9D9D9;
+}
+
+.deleteButton{
+  height: 20px;
+
+    cursor: pointer;
+    border: none;
+    width: 10%;
+    background-color: #D9D9D9;
+}
+.saveButton:hover{
+
+  background-color: #737373;
+
+}
+.card> textarea, .executeCard> textarea{
+  outline: none;
+  width: 100%;
+  background-color: #F0F1F2;
+  overflow:auto;
+
+  height: auto;
+  resize: vertical;
+;
+
+
+}
+.header{
+  height: 30px;
+ position: relative;
+ height: auto;
+ overflow: auto;
+}
+
+
+.header, .card {
+  cursor: pointer;
+}
+.createTable{
+
+  border-radius: 10px;
+  border:3px solid black;
+  margin: 5% 0 0 35%;
+  width: 30%;
+  height: 30%;
+}
+.createTable > {
+  margin-left: 3%;
+}
+.createInput{
+  background-color: white;
+  height: 15%;
+  margin:1%;
+  width: 60%;
+}
+
+
+ul.chooseList > li{
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 10px;
+  text-align: center;
+  width: 20%;
+  height: 15%;
+  margin: 2%;
+  border: 2px solid black;
+
+}
+
+
+.chooseRed{
+  background-color: red;
+}
+.chooseBlue{
+  background-color: blue;
+}
+.chooseYellow{
+  background-color: yellow;
+}
+.chooseGreen{
+  background-color: green;
+}
+.chooseWhite{
+  background-color: white;
+}
+.chooseOrange{
+  background-color: orange;
+}
+.choosePurple{
+  background-color: purple;
+}
+.chooseBrown{
+  background-color: brown;
+}
+
+.editTable{
+  width: 100%;
+  height: 10%;
+  background-color: ;
+}
+.editTable > p{
+  font-size: 20px;
+
+  padding-left: 2%;
+  width: 98%;
+  border-radius:10px;
+  background-color:;
+}
+.saveTableButton, .addNewBoardButton, .formButton{
+  text-decoration: none;
+  margin:1% 1% 1% 2%;
+  width: 7%;
+  height: 30%;
+  box-shadow: 0 -2px #EBA821 inset;
+  border-radius: 5px;
+  border: 0;
+  background-color: #E3BB5D;
+}
+.formButton{
+  width: 20%;
+  height: 10%;
+  margin-left: 70%;
+}
+.saveTableButton:hover,.addNewBoardButton:hover, .formButton:hover { background-color: #EB9400; }
